@@ -77,7 +77,7 @@ public class ImageReader{
         
         image.setRGB(0, 0, RGBMap[1].length,  RGBMap.length, data, 0,RGBMap[1].length);
         try {
-        ImageIO.write(image, "png", new File("outputImage.png")); 
+        ImageIO.write(image, "png", new File("simplified.png")); 
         }
         catch(Exception e) {
         	System.out.print("Method editWholeImage failed");

@@ -474,7 +474,7 @@ public class Algorithm {
 
 
     long startTime = System.nanoTime();
-    hugLeft("./src/pathFinder/path.png", 255000000, 128000, 0 );
+    hugLeft("./src/pathFinder/BIGMAZE.png", 255000000, 128000, 0 );
     long endTime = System.nanoTime();
     
     System.out.println((endTime - startTime) / 100000000);
