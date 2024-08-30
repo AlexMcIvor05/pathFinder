@@ -11,4 +11,4 @@ This works only on mazes with no openings (If you are in the maze you shouldnt b
 
 The start and the end of the maze is distinguished with two distinct colors.
 
-![img](result.png)
+![img](simplified.png)
