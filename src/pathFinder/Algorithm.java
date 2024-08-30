@@ -457,34 +457,24 @@ public class Algorithm {
 
    public static void main(String args[]){
     
-    /* 
-    for(int y = 155; y < RGBMap.length;y++){
-        System.out.println(" ");
-        for(int x = 0; x < RGBMap[0].length; x++){
-            System.out.println(RGBMap[y][x][0]+" "+ RGBMap[y][x][1]+" "+ RGBMap[y][x][2]+" ");
-        }
-    }
-     */
-
-     
-
-
-
-   
-
-
+ 
+	   
     long startTime = System.nanoTime();
+    
+    //in the method hugLeft replace the String with the path of your image
+    
+    //the next three parameters are RGB values represented in as a single integer
+    //		eg : 255000000
+    //
+    //		255  000  000
+    //		\/   \/   \/
+    //	   red  green blue
     hugLeft("./src/pathFinder/BIGMAZE.png", 255000000, 128000, 0 );
+    
     long endTime = System.nanoTime();
     
     System.out.println((endTime - startTime) / 100000000);
-    /*
-    startTime = System.nanoTime();
-    hugLeft2("./src/pathFinder/path.png", new int[]{255, 0, 0}, new int[]{0,128,0}, new int[]{0,0,0} );
-    endTime = System.nanoTime();
-    System.out.println("algo2");
-    System.out.println((endTime - startTime) / 100000000);
-   */
+   
    }
 
 }
