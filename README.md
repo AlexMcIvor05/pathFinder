@@ -11,4 +11,6 @@ This works only on mazes with no openings (If you are in the maze you shouldnt b
 
 The start and the end of the maze is distinguished with two distinct colors.
 
+
+maze 4000x4000 px 
 ![img](simplified.png)
