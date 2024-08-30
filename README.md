@@ -10,3 +10,5 @@ pathFinder works in two steps.
 This works only on mazes with no openings (If you are in the maze you shouldnt be able to get out).
 
 The start and the end of the maze is distinguished with two distinct colors.
+
+![img](result.png)
